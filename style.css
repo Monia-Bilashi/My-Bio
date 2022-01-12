@@ -1,0 +1,113 @@
+ body {
+     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+ }
+
+ * {
+     color: #fff;
+     padding: 0;
+     margin: 0;
+ }
+
+ .body {
+     background-color: #000;
+     background-image: url(https://uploads-ssl.webflow.com/591e952…/5b47654…_180712%20-%20background.jpg);
+     background-position: 50% 0;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     color: #fff;
+ }
+
+ .top-nav {
+     margin: 0px;
+     display: flex;
+ }
+
+ .logo {
+     height: 26px;
+     width: 110px;
+     margin-left: 100px;
+ }
+
+ .logo img {
+     height: 100%;
+     width: 100%;
+     box-shadow: 3px 1px 12px 3px #5a5454;
+     float: left;
+ }
+
+ .nav,
+     {
+     float: right;
+     margin-right:100px ;
+ }
+
+ .nav a {
+     padding: 5px 20px;
+     background: #5f535370;
+     text-decoration: none;
+     box-shadow: 3px 1px 12px 3px #5a5454;
+     text-align: center;
+ }
+
+ /*
+ .nav_contact {
+     margin-right: 50px;
+ }
+*/
+.m {
+    display: flex;
+    margin: 50px;
+}
+.m-i {
+    float: left;
+}
+ .information {
+     margin-left: 100px;
+ }
+
+ .title-hi {
+     line-height: 1.14286;
+     letter-spacing: .01em;
+     margin-top: 65px;
+     font-family: monospace;
+ }
+
+ .title-designation {
+     font-family: monospace;
+     font-size: 22px;
+ }
+
+ .title-describe {
+     margin-top: 50px;
+ }
+
+ .title-describe-one {
+     font-family: cursive;
+     font-size: 25px;
+     font-weight: normal;
+     font-style: italic;
+     color: darkolivegreen;
+ }
+
+ .title-usefulthings {
+     margin-left: 100px;
+     margin-top: 50px;
+ }
+
+ .title-usefulthings h3 img {
+     width: 15px;
+     height: 15px;
+ }
+
+  .img-my {
+    width: 300px;
+    height: 330px;
+    float: right;
+    padding-top: 47px;
+    margin: 23px 68px 126px 200px;
+ }
+ .img-my img {
+     width:100%;
+     height: 100%;
+ }
